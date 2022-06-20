@@ -43,7 +43,7 @@ const Booking = () => {
                     <div className="flex-item">
                         <h2 className='text-lg font-bold mb-3'>Trip type:</h2>
                         <span className='relative overflow-hidden inline-block mb-2 lg:mb-0 mr-3 border-1-custom py-2 px-4 rounded-full transition-all duration-300 hover:bg-gray-300 font-bold'>
-                            <input type="radio" name='trip-type' className='hover:bg-indigo-600' checked onClick={ () => handleTrip({type: 'one-way'}) } /> One-way
+                            <input type="radio" name='trip-type' className='hover:bg-indigo-600' onClick={ () => handleTrip({type: 'one-way'}) } /> One-way
                         </span>
                         <span className='relative overflow-hidden inline-block mb-2 lg:mb-0 mr-3 border-1-custom py-2 px-4 rounded-full transition-all duration-300 hover:bg-gray-300 font-bold'>
                             <input type="radio" name='trip-type' className='hover:bg-indigo-600' onClick={ () => handleTrip({type: 'round-way'}) } /> Round
